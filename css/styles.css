@@ -26,6 +26,10 @@ address {
     font-style: normal;
 }
 
+button {
+    cursor: pointer;
+}
+
 body {
     background-color: #ffffff;
     color: #434455;
@@ -168,7 +172,6 @@ body {
     font-family: 'Roboto', sans-serif;
     text-align: center;
     font-size: 56px;
-    font-style: normal;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 1.12px;
@@ -178,9 +181,9 @@ body {
 }
 
 .superman-btn {
+    min-width: 169px;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.64px;
@@ -190,7 +193,6 @@ body {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     border: none;
     padding: 16px 32px;
-    cursor: pointer;
 }
 
 .superman-btn:hover,
