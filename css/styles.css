@@ -57,6 +57,7 @@ body {
     margin: 0 auto;
     height: 72px;
     align-items: center;
+    border-bottom: 1px solid #e7e9fc
 }
 
 .header-navigation {
