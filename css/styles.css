@@ -325,16 +325,20 @@ body {
     margin-bottom: 32px;
 }
 
+/*? ========== Portfolio Section ========== */
+
 .portfolio-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #ffffff;
+    font-family: Roboto, sans-serif;
+}
+
+.portfolio-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 1440px;
-    background-color: #ffffff;
-    padding-top: 120px;
-    font-family: Roboto, sans-serif;
-    font-style: normal;
 }
 
 .portfolio-section-header {
