@@ -152,13 +152,16 @@ body {
 }
 
 .superman-section {
+    padding: 188px 0;
+    background-color: #2E2F42;
+}
+
+.superman {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 1440px;
-    height: 600px;
-    background-color: #2E2F42;
+
 }
 
 .superman-text {
