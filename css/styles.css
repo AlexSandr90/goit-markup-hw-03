@@ -23,13 +23,12 @@ body {
 
 .container {
     display: flex;
-    width: 100%;
     margin: 0 auto;
     padding: 0 15px;
 }
 
 .header-container {
-    max-width: 1158px;
+    width: 1158px;
 }
 
 .visually-hidden {
@@ -100,7 +99,7 @@ body {
 }
 
 .header-menu-item {
-    
+
 }
 
 .header-menu-link {
