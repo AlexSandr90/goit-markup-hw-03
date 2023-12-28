@@ -57,6 +57,9 @@ body {
     padding: 0 15px;
 }
 
+
+/**===== Header =====*/
+
 .header-container {
     width: 1158px;
     justify-content: space-between;
@@ -111,8 +114,7 @@ body {
     gap: 40px;
 }
 
-.header-menu-item {
-}
+.header-menu-item {}
 
 .header-menu-link {
     font-family: Roboto, sans-serif;
@@ -155,6 +157,8 @@ body {
 .address-link:focus {
     color: #404bbf;
 }
+
+/** ============= SUperman Section ======== */
 
 .superman-section {
     padding: 188px 0;
@@ -200,14 +204,19 @@ body {
     background-color: #404BBF;
 }
 
+/*? ====== Main Principles Section ====== */
+
 .main-principles-section {
+
+    padding: 120px 0;
+    background-color: #ffffff;
+}
+
+.main-principles-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 1440px;
-    height: 350px;
-    background-color: #ffffff;
 }
 
 .main-principles-head {
