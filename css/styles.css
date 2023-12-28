@@ -129,15 +129,16 @@ body {
     width: 345px;
     justify-content: space-between;
     padding-left: 0;
-
 }
 
 .address-section {
+    display: flex;
     font-style: normal;
     font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
+    gap: 40px;
 }
 
 .address-link {
