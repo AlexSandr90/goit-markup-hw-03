@@ -127,10 +127,10 @@ body {
 
 .address-items {
     display: flex;
-    list-style-type: none;
-    width: 345px;
     justify-content: space-between;
     padding-left: 0;
+    gap: 40px;
+
 }
 
 .address-section {
@@ -139,7 +139,6 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    gap: 40px;
 }
 
 .address-link {
