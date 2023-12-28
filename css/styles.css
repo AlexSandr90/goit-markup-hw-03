@@ -22,9 +22,11 @@ body {
 
 
 .container {
-    max-width: 1440px;
+    display: flex;
+    max-width: 1158px;
     width: 100%;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .visually-hidden {
@@ -53,7 +55,6 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    width: 1128px;
     margin: 0 auto;
     height: 72px;
     align-items: center;
@@ -62,6 +63,7 @@ body {
 
 .header-navigation {
     display: flex;
+    align-items: center;
     width: 452px;
     justify-content: space-between;
 }
