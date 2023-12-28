@@ -23,10 +23,13 @@ body {
 
 .container {
     display: flex;
-    max-width: 1158px;
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
+}
+
+.header-container {
+    max-width: 1158px;
 }
 
 .visually-hidden {
@@ -74,15 +77,16 @@ body {
     align-items: center;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
-    font-style: normal;
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
     text-decoration: none;
     color: #4D5AE5;
-
+    margin-right: 76px;
 }
+
+
 
 .header-logo span {
     color: #2E2F42;
@@ -93,6 +97,10 @@ body {
     justify-content: space-between;
     list-style-type: none;
     width: 260px;
+}
+
+.header-menu-item {
+    
 }
 
 .header-menu-link {
