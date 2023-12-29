@@ -301,6 +301,10 @@ body {
     width: calc((100% - 72px) / 4);
 }
 
+.team-item-container {
+    
+}
+
 .team-item-header {
     color: #2E2F42;
     text-align: center;
