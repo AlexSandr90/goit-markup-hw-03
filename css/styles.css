@@ -291,10 +291,6 @@ body {
     gap: 24px;
 }
 
-.team .team-item {
-    width: calc((100% - 72px) / 4);
-}
-
 .team-item {
     display: flex;
     flex-direction: column;
@@ -306,6 +302,9 @@ body {
     width: calc((100% - 72px) / 4);
 }
 
+.team-item:first-child, .team {
+    width: calc((100% - 72px) / 4);
+}
 
 .team-item-container {
     padding: 32px 0;
