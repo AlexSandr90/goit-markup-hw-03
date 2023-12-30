@@ -435,6 +435,7 @@ body {
 }
 
 .footer-logo-span {
+    display: inline-block;
     color: #F4F4FD;
 }
 
