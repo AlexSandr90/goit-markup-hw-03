@@ -286,7 +286,6 @@ body {
 
 .team-item {
     display: flex;
-    
     width: calc((100% - 72px) / 4);
     flex-direction: column;
     align-items: center;
