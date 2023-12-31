@@ -172,7 +172,6 @@ body {
 }
 
 .superman-text {
-    font-family: 'Roboto', sans-serif;
     text-align: center;
     font-size: 56px;
     font-weight: 700;
@@ -184,7 +183,6 @@ body {
 }
 
 .superman-btn {
-    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
